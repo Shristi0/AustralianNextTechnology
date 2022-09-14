@@ -1,0 +1,75 @@
+@import url(./main.css);
+@import url(./mediaQuery.css);
+@import url(./package/bootstrap.min.css);
+@import url(./animation.css);
+@import url(./package/owlCarousel.css);
+@import url(./package/owl-carousel.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  border: none;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+  color: inherit;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+:root {
+  --clr-primary-color: #ed1370;
+  --clr-primary-black: #121212;
+  --clr-secondary-black: #8a8686;
+  --clr-primary-white: #ffffff;
+  --clr-secondary-white: rgba(255, 255, 255, 0.75);
+  --clr-background: rgba(118, 65, 153, 0.65);
+  --heading1: 42px;
+  --heading2: 36px;
+  --heading3: 24px;
+  --btn-font: 18px;
+  --paragraph-l: 16px;
+  --paragraph-r: 14px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Open Sans", sans-serif;
+}
+
+button {
+  font-size: var(--btn-font);
+  padding: 12px 24px;
+}
+
+button.btn-primary {
+  background-color: var(--clr-primary-color);
+  color: var(--clr-primary-white);
+}
+
+button.d-flex {
+  gap: 16px;
+  background-color: var(--clr-primary-color);
+  color: var(--clr-primary-white);
+  border-radius: 6px;
+}
+
+input {
+  background-color: var(--clr-primary-white);
+  padding: 20px 32px;
+}
+
+img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.custom-container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
